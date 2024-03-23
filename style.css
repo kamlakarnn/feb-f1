@@ -1,0 +1,31 @@
+/* h1{
+    background-color: aqua;
+} */
+
+
+.nav-menu {
+    display: flex; /* Display the list items as inline blocks */
+    justify-content: space-around; /* Distribute items evenly with space around */
+    width: 100%; /* Ensure the navigation takes up the full width */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Optional styling for a more polished look */
+  .nav-menu li {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; /* Convert text to uppercase for a modern look */
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add spacing between heading and navigation */
+  }
+  
